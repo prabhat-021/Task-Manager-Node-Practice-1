@@ -8,7 +8,7 @@ const port = 3004;
 app.use(express.json());
 app.use("/api/v1/tasks", task);
 
-const url=process.env.MONGO_URI;
+const url = process.env.MONGO_URI;
 
 const start = async () => {
     try {

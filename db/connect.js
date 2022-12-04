@@ -11,6 +11,6 @@ const connectDB = (url) => {
             useUnifiedTopology: true,
         })
 }
-module.exports=connectDB;
+module.exports = connectDB;
     // .then(() => console.log("CONNECTED TO THE DB..."))
     // .catch((err) => console.log(err))
